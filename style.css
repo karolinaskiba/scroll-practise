@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+section {
+    height: 100vh;
+    text-align: center
+}
+
+section p {
+    width: 75%;
+    margin: 15px auto;
+}
