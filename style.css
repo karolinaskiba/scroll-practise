@@ -19,3 +19,31 @@ section p {
     width: 75%;
     margin: 15px auto;
 }
+
+.scroller__navigation {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scroller__navigation ul {
+    list-style: none;
+}
+
+.scroller__navigation ul li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(165, 36, 13, .4);
+    transition: all .3s ease-in-out;
+
+}
+
+.scroller__navigation ul li.active {
+    background-color: brown;
+}
+
+.scroller__navigation ul li+li {
+    margin-top: 10px;
+}
